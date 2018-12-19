@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Products</title>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js'></script>
+  <link rel='stylesheet' href='styles/index.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css'>
+  
+</head>
+<body>
+ <header>
+           <div class="header-ele">
+    <div class="img-logo">
+          
+        <h1>The Soul</h1>
+          <img src="images/rose.png" alt="logo">
+        </div>
+ <div class="navigation">        
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+        
+    </ul>
+</nav>
+         </div>
+               </div>
+</header>
+  <a class='btn btn-info' id='bigButton' href='checkout.html'>Let's checkout</a>
+    <div class="container">
+        <div class="search-container">
+    <input type="text" name="search" id="search" placeholder="Search the product">
+    <div id="search-result"></div>
+        </div>
+  <div class='products'>
+  </div>
+        </div>
+  
+  <script src="js/action.js">
+  </script>
+</body>
+</html>
